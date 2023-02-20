@@ -57,6 +57,7 @@ router.put('/:id', (req, res) => {
     })
 });
 
+
 router.delete('/:id', (req, res) => {
   console.log(req.params.id)
   Category.destroy({
